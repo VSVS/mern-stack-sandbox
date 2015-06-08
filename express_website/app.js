@@ -10,6 +10,7 @@ var routes = require('./routes/index');
 var contact = require('./routes/contact');
 var about = require('./routes/about');
 var portfolio = require('./routes/portfolio');
+var news = require('./routes/news');
 var app = express();
 
 // view engine setup
@@ -30,6 +31,7 @@ app.use('/', routes);
 app.use('/about', about);
 app.use('/contact', contact);
 app.use('/portfolio', portfolio);
+app.use('/news', news);
 
 
 // catch 404 and forward to error handler

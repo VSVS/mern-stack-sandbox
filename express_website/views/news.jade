@@ -1,0 +1,154 @@
+extends layout
+
+block content
+  .container
+      .row
+        .col-md-12
+          .jumbotron
+            h1.jumbo News
+            |       
+            img.img-responsive.visible-xs(src='//placehold.it/203x135', style='float:left;padding-right:5px;')
+            |       
+            img.img-responsive.hidden-xs(src='//placehold.it/225x150', style='float:left;padding-right:10px;')
+            p.jumbo
+              | Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+              | totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+              | dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
+              | eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+              | sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+              | Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+            |   
+            p
+              a.btn.btn-primary.btn-lg(role='button') Learn more
+    // Jumbotron End
+    // Left info box
+    .container
+      .row
+        .col-md-12.col-lg-8
+          .panel.panel-default
+            .panel-body(style='height:700px;overflow:auto;')
+              h3 Offering Overview Section
+              hr
+              |    &#x9; 
+              p
+                | Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                | totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                | dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
+                | eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                | sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                | Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+              br
+              |      
+              .row
+                .col-sm-4.col-md-4
+                  .thumbnail
+                    img(src='//placehold.it/200x150', alt='...')
+                    |          
+                    .caption.text-center
+                      h3 Caption
+                      |           
+                      p
+                        | Nullam sapien massa, aliquam in cursus ut, ullamcorper in tortor.
+                        | Aliquam mauris arcu, tristique a lobortis vitae, condimentum feugiat justo.
+                      |           
+                      p
+                        a.btn.btn-primary(href='#', role='button')
+                          | More Information 
+                          i.glyphicon.glyphicon-chevron-right
+                |   &#x9;   
+                .col-sm-4.col-md-4
+                  .thumbnail
+                    img(src='//placehold.it/200x150', alt='...')
+                    |          
+                    .caption.text-center
+                      h3 Caption
+                      |           
+                      p
+                        | Nullam sapien massa, aliquam in cursus ut, ullamcorper in tortor.
+                        | Aliquam mauris arcu, tristique a lobortis vitae, condimentum feugiat justo.
+                      |           
+                      p
+                        a.btn.btn-primary(href='#', role='button')
+                          | More Information 
+                          i.glyphicon.glyphicon-chevron-right
+                |     
+                |        
+                .col-sm-4.col-md-4
+                  .thumbnail
+                    img(src='//placehold.it/200x150', alt='...')
+                    |          
+                    .caption.text-center
+                      h3 Caption
+                      |           
+                      p
+                        | Nullam sapien massa, aliquam in cursus ut, ullamcorper in tortor.
+                        | Aliquam mauris arcu, tristique a lobortis vitae, condimentum feugiat justo.
+                      |           
+                      p
+                        a.btn.btn-primary(href='#', role='button')
+                          | More Information 
+                          i.glyphicon.glyphicon-chevron-right
+        // Left info box end
+        // Right info box
+        .col-md-6.col-lg-4
+          .panel.panel-default
+            .panel-body(style='height:700px;overflow:auto;')
+              h3 News &amp; Events
+              hr
+              // Artical
+              .media
+                a.pull-left(href='#')
+                  img.media-object(src='http://a.dryicons.com/images/icon_sets/coquette_part_5_icons_set/png/64x64/news.png', alt='...')
+                |      
+                .media-body
+                  h4.media-heading.inline-heading
+                    | Media Artical
+                    small &nbsp;7/4/2014
+                  |        
+                  img.artical(src='//placehold.it/50x50')
+                  p.artical
+                    | Nullam sapien massa, aliquam in cursus ut, ullamcorper in tortor.
+                    | Aliquam mauris arcu, tristique a lobortis vitae, condimentum feugiat justo.
+              // Artical End
+              // Artical
+              .media
+                a.pull-left(href='#')
+                  img.media-object(src='http://files.softicons.com/download/sport-icons/pretty-office-vii-icons-by-custom-icon-design/png/64x64/Calendar.png', alt='...')
+                |      
+                .media-body
+                  h4.media-heading
+                    | Event
+                    small &nbsp;7/4/2014
+                  |       
+                  p.artical
+                    | Nullam sapien massa, aliquam in cursus ut, ullamcorper in tortor.
+                    | Aliquam mauris arcu, tristique a lobortis vitae, condimentum feugiat justo.
+              // Artical End
+              // Artical
+              .media
+                a.pull-left(href='#')
+                  img.media-object(src='http://a.dryicons.com/images/icon_sets/coquette_part_5_icons_set/png/64x64/news.png', alt='...')
+                |      
+                .media-body
+                  h4.media-heading
+                    | Media Artical
+                    small &nbsp;7/4/2014
+                  |        
+                  p.artical
+                    | Nullam sapien massa, aliquam in cursus ut, ullamcorper in tortor.
+                    | Aliquam mauris arcu, tristique a lobortis vitae, condimentum feugiat justo.
+              // Artical End
+              // Artical
+              .media
+                a.pull-left(href='#')
+                  img.media-object(src='http://files.softicons.com/download/sport-icons/pretty-office-vii-icons-by-custom-icon-design/png/64x64/Calendar.png', alt='...')
+                |      
+                .media-body
+                  h4.media-heading
+                    | Event
+                    small &nbsp;7/4/2014
+                  |       
+                  p.artical
+                    | Nullam sapien massa, aliquam in cursus ut, ullamcorper in tortor.
+                    | Aliquam mauris arcu, tristique a lobortis vitae, condimentum feugiat justo.
+              // Artical End
