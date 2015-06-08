@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   padding-top: 50px;
 }
 
@@ -10,13 +11,28 @@ body {
 }
 .jumbotron p{
 	color:#ffffff; 
+=======
+  padding-top:50px;
+}
+
+.jumbotron{
+	background:url(../images/bg.jpg) no-repeat;
+>>>>>>> 9bb5bdbfd886b8305babff7d9512d123a00b702c
 }
 
 footer{
 	background:#f4f4f4;
+<<<<<<< HEAD
 	height: 40px;
 	text-align:center;
 	margin-top: 30px;
 	padding-top: 10px;
 	overflow: auto;
+=======
+	height:40px;
+	text-align: center;
+	margin-top:30px;
+	padding-top:10px;
+	overflow:auto;
+>>>>>>> 9bb5bdbfd886b8305babff7d9512d123a00b702c
 }
