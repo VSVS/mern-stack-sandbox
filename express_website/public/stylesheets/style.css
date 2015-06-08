@@ -1,0 +1,22 @@
+body {
+  padding-top: 50px;
+}
+
+.jumbotron{
+	background: #3E3E3E;
+	background-size: cover;
+	background-position: 0px;
+	color: #83F900;
+}
+.jumbotron p{
+	color:#ffffff; 
+}
+
+footer{
+	background:#f4f4f4;
+	height: 40px;
+	text-align:center;
+	margin-top: 30px;
+	padding-top: 10px;
+	overflow: auto;
+}
