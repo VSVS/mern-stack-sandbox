@@ -7,27 +7,22 @@ var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
 
 var routes = require('./routes/index');
-<<<<<<< HEAD
+
 var contact = require('./routes/contact');
 var about = require('./routes/about');
 var portfolio = require('./routes/portfolio');
 var news = require('./routes/news');
-=======
+
 var about = require('./routes/about');
 var contact = require('./routes/contact');
 
->>>>>>> 9bb5bdbfd886b8305babff7d9512d123a00b702c
+
 var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 9bb5bdbfd886b8305babff7d9512d123a00b702c
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(logger('dev'));
@@ -35,18 +30,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
 app.use('/', routes);
-<<<<<<< HEAD
 app.use('/about', about);
 app.use('/contact', contact);
 app.use('/portfolio', portfolio);
 app.use('/news', news);
 
-=======
-app.use('/about',about);
-app.use('/contact',contact);
->>>>>>> 9bb5bdbfd886b8305babff7d9512d123a00b702c
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

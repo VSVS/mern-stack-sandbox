@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 var express = require('express');
 var router = express.Router();
 
@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
-=======
+
 var express = require('express');
 var router = express.Router();
 
@@ -18,4 +18,3 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
->>>>>>> 9bb5bdbfd886b8305babff7d9512d123a00b702c

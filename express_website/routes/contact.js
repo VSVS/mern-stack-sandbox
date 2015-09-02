@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 var express = require('express');
 var router = express.Router();
 var nodemailer = require('nodemailer');
@@ -35,7 +35,7 @@ router.post('/send', function(req, res, text){
 });
 
 module.exports = router;
-=======
+
 var express = require('express');
 var router = express.Router();
 var nodemailer = require('nodemailer');
@@ -80,4 +80,4 @@ transporter.sendMail(mailOptions, function(error, info){
 });
 
 module.exports = router;
->>>>>>> 9bb5bdbfd886b8305babff7d9512d123a00b702c
+
