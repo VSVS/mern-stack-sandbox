@@ -1,18 +1,13 @@
-// var x = process.argv;
-
-// for(y as x){
-// 	if(typeOf(y) === '1'){
-// 		var z = y;
-// 	}
-// }
-
-var myTotal = 0,
-x = process.argv;
-
-for(var i = 0; i < x.length; i++){
-	myTotal += x[i][2];
+var babySteps = function(num){
+	num = process.argv;
+	var total = 0;
+	var v;
+	for(var i = 0; i < num.length; i++ ){
+		v = parseInt(num[i]);
+		if(!isNaN(v)){
+			total += v;
+		}
+	}
+	console.log(total);
 }
-
-console.log(myTotal);
-
-
+babySteps();
